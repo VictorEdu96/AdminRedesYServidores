@@ -1,0 +1,22 @@
+body {
+  background-color: #dcdcdc;
+}
+
+.grid-container {
+  display: grid;
+  height: 400px;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.grid-title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.grid-clock {
+  font-size: 30px;
+  text-align: center;
+}

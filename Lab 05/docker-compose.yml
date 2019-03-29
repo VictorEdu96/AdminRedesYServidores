@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: ./Web
+    ports:
+     - "80:80"
+  clock:
+    build: ./Clock
+    ports:
+     - "8080:3000"
