@@ -1,0 +1,8 @@
+version: '2'
+services:
+  client:
+    build: ./Client
+  server:
+    build: ./Server
+    ports:
+     - "8080:80"
